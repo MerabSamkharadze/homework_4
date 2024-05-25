@@ -86,12 +86,16 @@ console.log(array7);
 // დავალება 8
 
 let array8 = [1, 2, 3, 4, 5];
+array8.splice(2, 1, "three");
+console.log(array8);
+
+// დავალება 9
+
+let array4 = [1, 2, 3, 4, 5];
 let sum = 0;
 
-array8.forEach((number) => {
+array4.forEach((number) => {
   sum += number;
 });
 
 console.log(sum);
-
-// დავალება 9
